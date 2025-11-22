@@ -105,8 +105,8 @@ def romfs_print_file_hdr(file_hdr: RomFsFileHdr, offset: int) -> int:
 	romfs_print_line_std(" | file executable", s, o, file_hdr.file_executable());
 
 	o += s
-	romfs_print_line_std("spec_info",          s, o, file_hdr.spec_info);	       o += s
-	romfs_print_line_std("size",               s, o, file_hdr.size);	           o += s
+	romfs_print_line_std("spec_info",          s, o, file_hdr.spec_info);        o += s
+	romfs_print_line_std("size",               s, o, file_hdr.size);             o += s
 	romfs_print_line_hex("checksum",           s, o, file_hdr.checksum);         o += s
 	s = len(file_hdr.file_name)
 	romfs_print_line_std("file name",          s, o, file_hdr.file_name_desc()); o += s

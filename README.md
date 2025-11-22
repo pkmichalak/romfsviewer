@@ -15,7 +15,21 @@ https://en.wikipedia.org/wiki/Romfs
 https://docs.kernel.org/filesystems/romfs.html
 
 
-Test image create with:
+Test image:
+
+/
+|-- boat.png
+|-- jpg\ files
+|   `-- Ara.jpg
+|-- png\ files
+|   |-- baboon.png
+|   |-- Jupiter.png
+|   `-- Lenna_test_image.png
+|-- textfile.txt
+`-- This\ is\ a\ A4\ Test\ Document.pdf
+
+
+Test image created with:
 
 genromfs -f image.romfs -d data
 
