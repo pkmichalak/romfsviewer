@@ -1,0 +1,1 @@
+genromfs -f image.romfs -d data

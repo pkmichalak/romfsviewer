@@ -1,0 +1,1 @@
+python3 src/romfsviewer.py data-test/image.romfs
